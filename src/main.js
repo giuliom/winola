@@ -1,5 +1,9 @@
 const { app, BrowserWindow } = require('electron')
 
+// Addon demo
+const addon = require('../build/Release/hello');
+console.log(addon.hello());
+
 const createWindow = () => {
   const win = new BrowserWindow({
     width: 800,

@@ -1,0 +1,23 @@
+{
+  "name": "winola",
+  "version": "1.0.0",
+  "description": "Electron and Windows",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giuliom/winola.git"
+  },
+  "author": "Winola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giuliom/winola/issues"
+  },
+  "homepage": "https://github.com/giuliom/winola#readme",
+  "devDependencies": {
+    "electron": "^34.0.0"
+  }
+}
